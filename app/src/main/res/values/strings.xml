@@ -6,4 +6,10 @@
     <string name="zip_code">ZIP Code:</string>
     <string name="please_enter_zip_code">Please Enter ZIP Code</string>
     <string name="open_in_google_maps">OPEN IN GOOGLE MAPS</string>
+    <string name="logo_2">Logo 2</string>
+    <string name="logo_1">Logo 1</string>
+    <string name="logo_6">logo 6</string>
+    <string name="logo_5">logo 5</string>
+    <string name="logo_4">Logo 4</string>
+    <string name="logo_3">Logo 3</string>
 </resources>
