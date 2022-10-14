@@ -23,9 +23,12 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#000000"
+                android:contentDescription="@string/sports_team_avatar"
+                android:scaleType="centerInside"
                 app:srcCompat="@drawable/pfp" />
         </LinearLayout>
 
@@ -41,15 +44,16 @@
                 android:layout_width="62dp"
                 android:layout_height="29dp"
                 android:fontFamily="sans-serif-black"
-                android:text="Name:"
+                android:text="@string/name"
                 android:textColor="#000000"
                 android:textSize="22sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="286dp"
                 android:layout_height="wrap_content"
-                android:hint="Please Enter a Team Name"
+                android:hint="@string/please_enter_a_team_name"
                 android:textColor="#636363"
+                android:textColorHint="#8D6E63"
                 android:textSize="20sp" />
 
         </LinearLayout>
@@ -66,15 +70,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="31dp"
                 android:fontFamily="sans-serif-black"
-                android:text="ZIP Code:"
+                android:text="@string/zip_code"
                 android:textColor="#000000"
                 android:textSize="22sp" />
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="261dp"
                 android:layout_height="wrap_content"
-                android:hint="Please Enter ZIP Code"
-                android:textColor="#676767" />
+                android:hint="@string/please_enter_zip_code"
+                android:minHeight="48dp"
+                android:textColor="#676767"
+                android:textColorHint="#795548" />
         </LinearLayout>
 
         <LinearLayout
@@ -89,7 +95,7 @@
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:hapticFeedbackEnabled="false"
-                android:text="OPEN IN GOOGLE MAPS" />
+                android:text="@string/open_in_google_maps" />
         </LinearLayout>
     </LinearLayout>
 

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SportsProfileManager</string>
+    <string name="sports_team_avatar">Sports team avatar</string>
+    <string name="name">Name:</string>
+    <string name="please_enter_a_team_name">Please Enter a Team Name</string>
+    <string name="zip_code">ZIP Code:</string>
+    <string name="please_enter_zip_code">Please Enter ZIP Code</string>
+    <string name="open_in_google_maps">OPEN IN GOOGLE MAPS</string>
 </resources>
