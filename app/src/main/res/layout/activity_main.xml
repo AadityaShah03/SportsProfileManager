@@ -40,7 +40,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/nameTextView"
                 android:layout_width="62dp"
                 android:layout_height="29dp"
                 android:fontFamily="sans-serif-black"
@@ -49,6 +49,7 @@
                 android:textSize="22sp" />
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nameEditText"
                 android:layout_width="286dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/please_enter_a_team_name"
@@ -66,7 +67,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/zipCodeTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="31dp"
                 android:fontFamily="sans-serif-black"
@@ -75,6 +76,7 @@
                 android:textSize="22sp" />
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/postalCodeEditText"
                 android:layout_width="261dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/please_enter_zip_code"
@@ -91,10 +93,11 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/OpenInGoogleMaps"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:hapticFeedbackEnabled="false"
+                android:onClick="@{MainActivity.OnOpenInGoogleMaps}"
                 android:text="@string/open_in_google_maps" />
         </LinearLayout>
     </LinearLayout>
