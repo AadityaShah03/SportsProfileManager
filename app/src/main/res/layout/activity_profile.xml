@@ -24,7 +24,7 @@
             app:rowCount="3">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/teamid00"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/logo_1"
@@ -34,7 +34,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/teamid01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/logo_2"
@@ -44,7 +44,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageView
-                android:id="@+id/imageView5"
+                android:id="@+id/teamid02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/logo_3"
@@ -54,7 +54,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageView
-                android:id="@+id/imageView6"
+                android:id="@+id/teamid03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/logo_4"
@@ -64,7 +64,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageView
-                android:id="@+id/imageView7"
+                android:id="@+id/teamid04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/logo_5"
@@ -74,7 +74,7 @@
                 tools:srcCompat="@tools:sample/avatars" />
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/teamid05"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/logo_6"
