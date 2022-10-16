@@ -2,12 +2,14 @@ package com.example.sportsprofilemanager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void OnOpenInGoogleMaps (View view) {
         EditText teamAddres = (EditText) findViewById(R.id.postalCodeEditText);
-        // Create a Uri from an intent string. Use the result to create an Intent.
+        System.out.println("started");
+        // Create a Uri from an intent string. Use the result to create an Intent
         Uri gmmIntentUri = Uri.parse("http://maps.google.co.in/maps?q="+teamAddres.getText());
         // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);

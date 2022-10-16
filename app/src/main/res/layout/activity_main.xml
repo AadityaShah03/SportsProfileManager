@@ -103,7 +103,7 @@
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:hapticFeedbackEnabled="false"
-                android:onClick="@{MainActivity.OnOpenInGoogleMaps}"
+                android:onClick="OnOpenInGoogleMaps"
                 android:text="@string/open_in_google_maps" />
         </LinearLayout>
     </LinearLayout>
