@@ -20,10 +20,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OnOpenInGoogleMaps (View view) {
-        EditText teamAddres = (EditText) findViewById(R.id.postalCodeEditText);
-        System.out.println("started");
+        EditText teamAddress = (EditText) findViewById(R.id.postalCodeEditText);
         // Create a Uri from an intent string. Use the result to create an Intent
-        Uri gmmIntentUri = Uri.parse("http://maps.google.co.in/maps?q="+teamAddres.getText());
+        Uri gmmIntentUri = Uri.parse("http://maps.google.co.in/maps?q="+teamAddress.getText());
         // Create an Intent from gmmIntentUri. Set the action to ACTION_VIEW
         Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
         // Make the Intent explicit by setting the Google Maps package
