@@ -31,7 +31,7 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="301dp"
-                android:layout_height="200dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="#00000000"
                 android:contentDescription="@string/sports_team_avatar"
