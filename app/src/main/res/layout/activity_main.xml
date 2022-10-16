@@ -28,6 +28,7 @@
                 android:layout_weight="1"
                 android:background="#000000"
                 android:contentDescription="@string/sports_team_avatar"
+                android:onClick="OnSetAvatarButton"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/pfp" />
         </LinearLayout>
