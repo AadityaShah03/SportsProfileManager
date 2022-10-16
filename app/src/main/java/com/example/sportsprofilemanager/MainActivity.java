@@ -38,12 +38,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_CANCELED) return;
-//Getting the Avatar Image we show to our users
+        //Getting the Avatar Image we show to our users
         ImageView avatarImage = (ImageView) findViewById(R.id.avatarImage);
-//Figuring out the correct image
+        //Figuring out the correct image
         String drawableName = "ic_logo_00";
-        switch (data.getIntExtra("imageID",R.id.teamid00)) {
+        switch (data.getIntExtra("imageID", R.id.teamid00)) {
             case R.id.teamid00:
                 drawableName = "ic_logo_00";
                 break;
